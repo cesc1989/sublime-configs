@@ -1,0 +1,8 @@
+# Ignore everything
+*
+
+# Do not ignore these
+!.gitignore
+!Preferences.sublime-settings
+!Package Control.sublime-settings
+!Default (OSX).sublime-keymap

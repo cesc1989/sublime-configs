@@ -1,0 +1,24 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"1337 Color Scheme",
+		"All Autocomplete",
+		"Dockerfile Syntax Highlighting",
+		"DotENV",
+		"EditorConfig",
+		"Elixir",
+		"Git",
+		"JSX",
+		"Origami",
+		"Package Control",
+		"Pretty JSON",
+		"Ruby Slim",
+		"Sass",
+		"Terraform",
+		"TypeScript Syntax",
+	],
+}
