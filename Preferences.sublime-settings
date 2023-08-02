@@ -1,7 +1,11 @@
+// This is Packages/User/Preferences.sublime-settings
+// and it's overriding the main Sublime preferences settings
+
 {
 	"font_size": 12,
 	"ignored_packages":
 	[
+		"TypeScript Syntax",
 		"Vintage",
 	],
 	"theme": "Default.sublime-theme",
