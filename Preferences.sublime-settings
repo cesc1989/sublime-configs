@@ -16,4 +16,11 @@
 	// Goto Anything or Find in Files
 	"binary_file_patterns": ["tmp/", "node_modules/"],
 	"sidebar_on_right": true,
+
+	// Esta configuracion es para que Sublime no abra la sesion anterior
+	// ademas de la sesion actual cuando hago el comando `subl .`.
+	//
+	// Esto me pasa mas que nada en Linux Mint.
+	"hot_exit": false,
+	"remember_open_files": false,
 }

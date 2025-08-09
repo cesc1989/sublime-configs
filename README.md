@@ -6,25 +6,31 @@ I was using Sync Settings extension but is no longer maintained so went for this
 
 In the computer where these settings are needed go to the Sublime Text folder.
 
-On a M1 Macbook the folder probably is at:
+### MacBook Pro M1 chip
 
 ```bash
-$ cd ~/Library/Application\ Support/Sublime\ Text/Packages/User
+cd ~/Library/Application\ Support/Sublime\ Text/Packages/User
 ```
 
-On an Intel Macbook the folder should be:
+### MacBook Pro Intel chip
 
 ```bash
 cd ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User
 ```
 
+### Linux Mint / Ubuntu
+
+```bash
+cd $HOME/.config/sublime-text/Packages/User
+```
+
 And then run these git commands:
 
 ```bash
-$ git init
-$ git remote add origin git@github.com:cesc1989/sublime-configs.git
-$ git fetch
-$ git reset --hard origin/main
+git init
+git remote add origin git@github.com:cesc1989/sublime-configs.git
+git fetch
+git reset --hard origin/main
 ```
 
 With the last line we instruct git to use only files coming from the remote.
