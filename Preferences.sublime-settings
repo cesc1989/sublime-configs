@@ -8,19 +8,27 @@
 	],
 	"theme": "Default.sublime-theme",
 	"index_files": true,
-	// este config sirve pero oculta la carpeta del sidebar
-	//"folder_exclude_patterns": ["tmp"],
 
-	// Mejor usar esta opción
+	// Este config sirve pero oculta la carpeta del sidebar
+	//"folder_exclude_patterns": ["tmp"],
+	//
+	// Mejor usar esta opción:
+	//
 	// These files will still show up in the sidebar, but won't be included in
 	// Goto Anything or Find in Files
 	"binary_file_patterns": ["tmp/", "node_modules/"],
+
 	"sidebar_on_right": true,
 
 	// Esta configuracion es para que Sublime no abra la sesion anterior
-	// ademas de la sesion actual cuando hago el comando `subl .`.
+	// ademas de la sesion actual cuando hago el comando `subl .`
 	//
 	// Esto me pasa mas que nada en Linux Mint.
 	"hot_exit": false,
 	"remember_open_files": false,
+
+	// The number of spaces a tab is considered equal to
+	"tab_size": 2,
+	// Set to true to insert spaces when tab is pressed
+	"translate_tabs_to_spaces": true,
 }
