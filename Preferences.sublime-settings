@@ -19,7 +19,9 @@
 	"binary_file_patterns": [
 		"tmp/",
 		"node_modules/",
-		"_build/" // esto es de Elixir/Grimoire
+		"_build/", // esto es de Elixir/Grimoire
+		"deps/", // esta es la carpeta donde Elixir instala dependencias. Como node_modules
+		"_site/"  // esta es la carpeta generada por Jekyll
 	],
 
 	"sidebar_on_right": true,
