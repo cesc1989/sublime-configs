@@ -1,6 +1,6 @@
-# Sublime Text 3 Configuration Files
+# Sublime Text 4 Configuration Files
 
-I was using Sync Settings extension but is no longer maintained so went for this "simple" solution.
+I was using Sync Settings extension but it is no longer maintained so went for this simpler solution.
 
 ## How to use
 
@@ -33,18 +33,18 @@ git fetch
 git reset --hard origin/main
 ```
 
-With the last line we instruct git to use only files coming from the remote.
-
-We could omit this and do a manual merge of the current files against the incoming ones.
+With the last line we instruct git to use only files coming from the remote. We could omit this and do a manual merge of the current files against the incoming ones.
 
 ## About the .gitignore
+
+> [!Important]
+> This is the way this repo works. By manually unignoring the files we need to sync.
 
 The `.gitignore` file is setup to ignore everything except custom files.
 
 It's done this way because Sublime or Package Control could add files and we'd be running git commands so often.
 
-When adding a new file, also include it in the `.gitignore` prepended with exclamation mark, i.e
-
+When adding a new file, also include it in the `.gitignore` prepended with exclamation mark, i.e:
 ```git
 # .gitignore
 
