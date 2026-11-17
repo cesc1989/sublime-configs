@@ -43,4 +43,9 @@
 	"wrap_width": 120,
 	"dictionary": "Packages/Dictionaries/Spanish.dic",
 	"font_size": 12,
+	"highlight_line": true,
+	"rulers": [
+    100,
+    120
+  ],
 }
